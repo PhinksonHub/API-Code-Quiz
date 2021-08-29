@@ -1,0 +1,74 @@
+    game.css body {
+        color: white;
+    }
+    
+    .choice-container {
+        display: flex;
+        margin-bottom: 16px;
+        width: 100%;
+        border-radius: 4px;
+        background: royalblue;
+        font-size: 3rem;
+        min-width: 80rem;
+    }
+    
+    .choice-container:hover {
+        cursor: pointer;
+        box-shadow: 0.4rem 1.4rem 0 blue;
+        transform: scale(1.02);
+        transform: transform 100ms;
+    }
+    
+    .choice-prefox {
+        padding: 2rem 2.5rem;
+        color: white;
+    }
+    
+    .choice-text {
+        padding: 2rem;
+        width: 100%;
+    }
+    
+    .correct {
+        background: linear-graident(32deg, green)100%;
+    }
+    
+    .incorrect {
+        background: linear-gradient(32deg, scarlet red)100%;
+    }
+    /*Attention Display*/
+    
+    #hud {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .hud-prefix {
+        text-align: center;
+        font-size: 6rem;
+    }
+    
+    .hud-main-text {
+        text-align: center;
+    }
+    
+    #progressiveBar {
+        width: 20 rem;
+        height: 3 rem;
+        border: 0.2 rem solid orange;
+        margin-top: 2rem;
+        border-radius: 50px;
+        overflow: hidden;
+    }
+    
+    #progressiveBarFull {
+        height: 100%;
+        background: orange;
+        width: 0%;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .choice-container {
+            min-width: 40 rem;
+        }
+    }
