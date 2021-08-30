@@ -1,0 +1,7 @@
+README.md1
+API Code Quiz:
+During a code quiz when the starter button is clicked the timer will start and the first question will appear.
+Once present question is answered another question will appear.
+Should a question be incorrect, time will be subtracted from the clock.
+When all questions are answered or the timer returns to zero the game is over.
+My initials and score can be saved when then game is over.

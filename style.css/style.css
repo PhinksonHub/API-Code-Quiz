@@ -1,75 +1,106 @@
-                                                                           :root {
-                                                                          background-color: blue;
-                                                                      }
-                                                                      
-                                                                      * {
-                                                                          box-sizing: border-box;
-                                                                          margin: 0;
-                                                                          padding: 0;
-                                                                          font-family: Arial, Helvetica, sans-serif, cursive;
-                                                                          font-size: 4px;
-                                                                      }
-                                                                      
-                                                                      h1 {
-                                                                          font-size: 60px;
-                                                                          color: aliceblue;
-                                                                          margin: 80px;
-                                                                          h2 {
-                                                                              font-size: 64px;
-                                                                              margin-bottom: 64px;
-                                                                          }
-                                                                          .container {
-                                                                              width: 100%;
-                                                                              height: 100%;
-                                                                              display: flex;
-                                                                              justify-content: center;
-                                                                              align-items: center;
-                                                                              max-width: 80%;
-                                                                              margin: 0 auto;
-                                                                              padding: 32;
-                                                                          }
-                                                                          .flex-column {
-                                                                              display: flex;
-                                                                              flex-direction: column;
-                                                                          }
-                                                                          .flex-center {
-                                                                              justify-content: center;
-                                                                              align-items: center;
-                                                                          }
-                                                                          .justify-center {
-                                                                              justify-content: center;
-                                                                          }
-                                                                          .text-center {
-                                                                              justify-content: center;
-                                                                          }
-                                                                          .hidden {
-                                                                              display: none;
-                                                                          }
-                                                                          .btn {
-                                                                              font-size: 32px;
-                                                                              padding: 30px;
-                                                                              width: 480;
-                                                                              text-align: center;
-                                                                              margin-bottom: 16px;
-                                                                              text-decoration: none;
-                                                                              color: gray;
-                                                                              background: linear-gradient(black, red), 100%;
-                                                                              border-radius: 4px;
-                                                                          }
-                                                                          .btn:hover {
-                                                                              cursor: pointer;
-                                                                              box-shadow: 0px;
-                                                                              transition: transform 150ms;
-                                                                              transform: scale(1.03);
-                                                                          }
-                                                                          .btn[disabled]:hover {
-                                                                              cursor: not-allowed;
-                                                                              box-shadow: none;
-                                                                              transform: none;
-                                                                          }
-                                                                          #highscore-btn {
-                                                                              background: linear-gradient(90deg, yellow)100%;
-                                                                          }
-                                                                          #highscore-btn:hover {
-                                                                              box-shadow: none;
-                                                                          }
+                                                                                          :root {
+                                                                                         background-color: blue;
+                                                                                     }
+                                                                                     
+                                                                                     * {
+                                                                                         box-sizing: border-box;
+                                                                                         margin: 0;
+                                                                                         padding: 0;
+                                                                                         font-family: Arial, Helvetica, sans-serif, cursive;
+                                                                                         font-size: 4px;
+                                                                                     }
+                                                                                     
+                                                                                     h1 {
+                                                                                         font-size: 60px;
+                                                                                         color: aliceblue;
+                                                                                         margin: 80px;
+                                                                                         h2 {
+                                                                                             font-size: 64px;
+                                                                                             margin-bottom: 64px;
+                                                                                         }
+                                                                                         .container {
+                                                                                             width: 100%;
+                                                                                             height: 100%;
+                                                                                             display: flex;
+                                                                                             justify-content: center;
+                                                                                             align-items: center;
+                                                                                             max-width: 80%;
+                                                                                             margin: 0 auto;
+                                                                                             padding: 32;
+                                                                                         }
+                                                                                         .flex-column {
+                                                                                             display: flex;
+                                                                                             flex-direction: column;
+                                                                                         }
+                                                                                         .flex-center {
+                                                                                             justify-content: center;
+                                                                                             align-items: center;
+                                                                                         }
+                                                                                         .justify-center {
+                                                                                             justify-content: center;
+                                                                                         }
+                                                                                         .text-center {
+                                                                                             justify-content: center;
+                                                                                         }
+                                                                                         .hidden {
+                                                                                             display: none;
+                                                                                         }
+                                                                                         .btn {
+                                                                                             font-size: 32px;
+                                                                                             padding: 30px;
+                                                                                             width: 480;
+                                                                                             text-align: center;
+                                                                                             margin-bottom: 16px;
+                                                                                             text-decoration: none;
+                                                                                             color: gray;
+                                                                                             background: linear-gradient(black, red), 100%;
+                                                                                             border-radius: 4px;
+                                                                                         }
+                                                                                         .btn:hover {
+                                                                                             cursor: pointer;
+                                                                                             box-shadow: 0px;
+                                                                                             transition: transform 150ms;
+                                                                                             transform: scale(1.03);
+                                                                                         }
+                                                                                         .btn[disabled]:hover {
+                                                                                             cursor: not-allowed;
+                                                                                             box-shadow: none;
+                                                                                             transform: none;
+                                                                                         }
+                                                                                         #highscore-btn {
+                                                                                             background: linear-gradient(90deg, yellow)100%;
+                                                                                         }
+                                                                                         #highscore-btn:hover {
+                                                                                             box-shadow: none;
+                                                                                         }
+                                                                                         /*End Page CSS*/
+                                                                                         .end-form-container {
+                                                                                             max-width: 100%;
+                                                                                             display: flex;
+                                                                                             flex-direction: column;
+                                                                                             align-items: center;
+                                                                                             max-width: 30 rem;
+                                                                                         }
+                                                                                         input {
+                                                                                             margin-bottom: 1 rem;
+                                                                                             width: 20rem;
+                                                                                             padding: 1.0rem;
+                                                                                             font-size: 2rem;
+                                                                                             border: none;
+                                                                                         }
+                                                                                         input::placeholder {
+                                                                                             color: grey;
+                                                                                         }
+                                                                                         #username {
+                                                                                             margin-bottom: 3rem;
+                                                                                             width: 100%;
+                                                                                             outline: none;
+                                                                                         }
+                                                                                         #end-text {
+                                                                                             font-size: 2rem;
+                                                                                             color: antiquewhite;
+                                                                                             text-align: center;
+                                                                                         }
+                                                                                         #saveScoreBtn {
+                                                                                             border: none;
+                                                                                         }
